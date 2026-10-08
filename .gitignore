@@ -2,3 +2,10 @@ __pycache__/
 *.pyc
 .build/
 dist/
+
+# vídeos e frames (não subir para o GitHub)
+*.mp4
+*.mov
+*.webm
+media/
+.build/
