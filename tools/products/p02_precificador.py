@@ -199,7 +199,12 @@ def build(bk: Book):
     wsm = bk.sheet("Simulador", onepage=True)
     bk.banner(wsm, "Simulador de desconto", "Descubra quanto precisa vender a mais para não perder lucro ao dar desconto.", 6)
     wsm.set_column(0, 0, 3); wsm.set_column(1, 1, 44); wsm.set_column(2, 5, 18)
-    first = rows[0]["nome"] if bk.sample else None
+    def _sim(d):
+        base = d["prat"] if d["prat"] else d["S"]
+        var = d["M"] - d["lucro_used"]
+        return base * (1 - var) - d["L"], base * 0.9 * (1 - var) - d["L"]
+    sel = next((d for d in rows if _sim(d)[0] > 0 and _sim(d)[1] > 0), rows[0]) if bk.sample else None
+    first = sel["nome"] if bk.sample else None
     wsm.write(3, 1, "Escolha o produto", lf); bk.w(wsm, (3, 2), first, bk.fmt("in", bold=True)); wsm.merge_range(3, 2, 3, 4, first, bk.fmt("in", bold=True))
     bk.dv_list(wsm, "C4", "=ProdNome", "Escolha um produto cadastrado")
     wsm.write(4, 1, "Desconto que pretendo dar (%)", lf); bk.w(wsm, (4, 2), 0.10, bk.fmt("in", nf="pct", align="center"))
@@ -280,11 +285,7 @@ def build(bk: Book):
         exp[("Resumo", "E5")] = sts.count("Abaixo do ideal")
         exp[("Resumo", "G5")] = sts.count("OK")
         exp[("Resumo", "A5")] = len(rows)
-        s0 = rows[0]
-        base = s0["prat"] if s0["prat"] else s0["S"]
-        var = s0["M"] - s0["lucro_used"]
-        lucro0 = base * (1 - var) - s0["L"]
-        lucro1 = base * 0.9 * (1 - var) - s0["L"]
+        lucro0, lucro1 = _sim(sel)
         exp[("Simulador", "C11")] = round(lucro0, 2)
         exp[("Simulador", "C13")] = round(lucro1, 2)
         exp[("Simulador", "C15")] = round(lucro0 / lucro1 - 1, 4) if lucro1 > 0 else "Impossível: dá prejuízo"

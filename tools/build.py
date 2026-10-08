@@ -4,7 +4,7 @@ regrava com valores em cache e salva em planilhas/<pasta>/.
 
 uso: python3 build.py [slug-ou-modulo ...]
 """
-import importlib, os, subprocess, sys, shutil, warnings, datetime as dt
+import importlib, json, os, subprocess, sys, shutil, warnings, datetime as dt
 warnings.filterwarnings("ignore")
 import openpyxl
 from openpyxl.utils.datetime import to_excel
@@ -76,10 +76,16 @@ def check(cache, expected, label):
     print(f"   [{status}] {label}: {len(expected)} conferências, {len(errs)} erros de fórmula")
     for p in problems:
         print("      -", p)
+    RESULTS.setdefault(CURRENT[0], {})[label] = dict(ok=not problems, checks=len(expected), errors=len(errs))
     return not problems
 
 
+RESULTS = {}
+CURRENT = [None]
+
+
 def build_module(modname):
+    CURRENT[0] = modname
     mod = importlib.import_module(modname)
     dest = os.path.join(ROOT, "planilhas", mod.PASTA)
     os.makedirs(dest, exist_ok=True)
@@ -108,4 +114,10 @@ if __name__ == "__main__":
             ok &= build_module(m)
         except ModuleNotFoundError as e:
             print("   (módulo ausente:", e, ")")
+    rp = os.path.join(BUILD, "results.json")
+    old = {}
+    if os.path.exists(rp):
+        old = json.load(open(rp))
+    old.update(RESULTS)
+    json.dump(old, open(rp, "w"), indent=1)
     sys.exit(0 if ok else 1)

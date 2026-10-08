@@ -264,7 +264,7 @@ def build(bk: Book):
     ch.set_y_axis({"num_format": '#,##0', "major_gridlines": {"visible": True, "line": {"color": "#E5E7EB"}}})
     ln.set_y2_axis({"num_format": '#,##0'})
     ch.set_x_axis({"num_format": "mmm"})
-    ch.set_size({"width": 560, "height": 300})
+    ch.set_size({"width": 520, "height": 300})
     wd.insert_chart("A21", ch)
     bar = wb.add_chart({"type": "bar"})
     bar.add_series({"name": "Saídas", "categories": "=Dashboard!$B$12:$B$19", "values": "=Dashboard!$D$12:$D$19",

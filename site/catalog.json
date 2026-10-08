@@ -1,0 +1,352 @@
+{
+ "produtos": [
+  {
+   "nome": "Fluxo de Caixa Inteligente",
+   "slug": "p01_fluxo",
+   "categoria": "Financeiro",
+   "slogan": "Saiba, de verdade, quanto sobra no fim do mês.",
+   "dor": "O dono não sabe quanto realmente sobra no final do mês nem se o caixa vai aguentar os próximos meses.",
+   "resumo": "Planilha de fluxo de caixa com previsto x realizado, saldo projetado mês a mês, alerta de saldo negativo, meses de reserva e ranking de despesas.",
+   "preco": 47,
+   "promo": 37,
+   "premium": 87,
+   "pasta": "financeiro/fluxo-de-caixa",
+   "abas": [
+    "Início",
+    "Config",
+    "Lançamentos",
+    "Mensal",
+    "Dashboard"
+   ],
+   "nota": 98,
+   "publico": "MEIs e autônomos que querem separar pró-labore e lucro"
+  },
+  {
+   "nome": "Precificador de Produtos e Serviços",
+   "slug": "p02_precificador",
+   "categoria": "Precificação",
+   "slogan": "Preço certo, lucro garantido.",
+   "dor": "O empresário define o preço por intuição ou copiando a concorrência: vende muito e não sobra lucro, e confunde markup com margem.",
+   "resumo": "Calcula o preço de venda de produtos e serviços com custo, impostos, comissão, taxas, despesas fixas e lucro desejado; avisa itens em prejuízo e simula descontos.",
+   "preco": 57,
+   "promo": 47,
+   "premium": 97,
+   "pasta": "precificacao/precificador",
+   "abas": [
+    "Início",
+    "Config",
+    "Produtos",
+    "Serviços",
+    "Simulador",
+    "Resumo"
+   ],
+   "nota": 96,
+   "publico": "Lojas e e-commerce"
+  },
+  {
+   "nome": "Estoque Inteligente com Curva ABC",
+   "slug": "p03_estoque",
+   "categoria": "Estoque",
+   "slogan": "Falta zero do que vende. Sobra zero do que não vende.",
+   "dor": "Falta do que vende e excesso do que não vende: dinheiro parado em estoque e vendas perdidas por ruptura.",
+   "resumo": "Controle de estoque com entradas e saídas, status (ruptura/repor/ok/excesso), itens parados, lista de compras por fornecedor e Curva ABC automática com gráfico de Pareto.",
+   "preco": 67,
+   "promo": 57,
+   "premium": 117,
+   "pasta": "estoque/estoque-inteligente",
+   "abas": [
+    "Início",
+    "Config",
+    "Produtos",
+    "Movimentações",
+    "Posição",
+    "Curva ABC",
+    "Compras",
+    "Dashboard"
+   ],
+   "nota": 95,
+   "publico": "Lojas físicas e e-commerce"
+  },
+  {
+   "nome": "Contas a Pagar e Receber com Inadimplência",
+   "slug": "p04_contas",
+   "categoria": "Financeiro",
+   "slogan": "Nenhum vencimento esquecido. Nenhum cliente sem cobrança.",
+   "dor": "Contas vencem sem ninguém ver, clientes atrasam sem cobrança organizada e a inadimplência corrói o caixa.",
+   "resumo": "Controle de contas a pagar e a receber com status automático, multa e juros, aging, ranking de devedores, mensagem de cobrança pronta e previsão de 8 semanas.",
+   "preco": 57,
+   "promo": 47,
+   "premium": 97,
+   "pasta": "financeiro/contas-pagar-receber",
+   "abas": [
+    "Início",
+    "Config",
+    "Receber",
+    "Pagar",
+    "Painel"
+   ],
+   "nota": 94,
+   "publico": "Prestadores de serviço com contratos mensais"
+  },
+  {
+   "nome": "CRM e Funil de Vendas com Follow-up",
+   "slug": "p05_crm",
+   "categoria": "Vendas",
+   "slogan": "Nenhum lead esquecido. Nenhuma venda perdida por falta de retorno.",
+   "dor": "Leads esfriam por falta de follow-up; oportunidades 'somem' entre WhatsApp, e-mail e papel.",
+   "resumo": "CRM em planilha com funil por etapas, agenda de follow-up diária, previsão ponderada de vendas, conversão por origem, ranking e metas de vendedores.",
+   "preco": 67,
+   "promo": 57,
+   "premium": 117,
+   "pasta": "vendas/crm-funil",
+   "abas": [
+    "Início",
+    "Config",
+    "Leads",
+    "Agenda",
+    "Funil",
+    "Vendedores",
+    "Dashboard"
+   ],
+   "nota": 92,
+   "publico": "Equipes comerciais pequenas"
+  },
+  {
+   "nome": "DRE e Ponto de Equilíbrio",
+   "slug": "p06_dre",
+   "categoria": "Financeiro",
+   "slogan": "Descubra o lucro real e quanto precisa vender para pagar as contas.",
+   "dor": "A empresa fatura, mas o dono não sabe se tem lucro nem quanto precisa vender por mês para não ter prejuízo.",
+   "resumo": "Monta o DRE mensal a partir de lançamentos simples e calcula margem de contribuição, ponto de equilíbrio, margem de segurança e faturamento necessário para a meta de lucro.",
+   "preco": 57,
+   "promo": 47,
+   "premium": 97,
+   "pasta": "financeiro/dre-ponto-equilibrio",
+   "abas": [
+    "Início",
+    "Config",
+    "Lançamentos",
+    "DRE",
+    "Ponto de Equilíbrio"
+   ],
+   "nota": 91,
+   "publico": "Pequenas e médias empresas que só veem o lucro no balanço do contador"
+  },
+  {
+   "nome": "Ficha Técnica e CMV para Restaurantes",
+   "slug": "p07_ficha",
+   "categoria": "Restaurantes",
+   "slogan": "Saiba quanto custa cada prato e onde seu dinheiro está sumindo.",
+   "dor": "O cardápio é precificado 'no feeling' e o CMV fica alto por desperdício, porção irregular ou fornecedor caro, sem o dono saber onde.",
+   "resumo": "Cadastro de insumos com fator de correção, fichas técnicas, CMV e preço sugerido por prato, engenharia de cardápio, CMV real x teórico mensal e registro de desperdício.",
+   "preco": 77,
+   "promo": 67,
+   "premium": 127,
+   "pasta": "restaurantes/ficha-tecnica-cmv",
+   "abas": [
+    "Início",
+    "Config",
+    "Insumos",
+    "Fichas",
+    "Pratos",
+    "CMV Mensal",
+    "Desperdício",
+    "Dashboard"
+   ],
+   "nota": 90,
+   "publico": "Restaurantes, bares e lanchonetes"
+  },
+  {
+   "nome": "Ordem de Serviço para Oficinas",
+   "slug": "p08_oficina",
+   "categoria": "Oficinas",
+   "slogan": "Cada peça na OS, cada real no caixa.",
+   "dor": "Orçamento no WhatsApp, peça controlada 'de cabeça', estoque que some e caixa que não fecha com o movimento real.",
+   "resumo": "Ordem de serviço com clientes, veículos, peças, estoque, lucro por OS, comissão de mecânico, contas a receber, OS atrasadas e histórico por placa.",
+   "preco": 77,
+   "promo": 67,
+   "premium": 127,
+   "pasta": "oficinas/ordem-de-servico",
+   "abas": [
+    "Início",
+    "Config",
+    "Clientes",
+    "Veículos",
+    "Peças",
+    "Entradas",
+    "OS",
+    "Itens da OS",
+    "Histórico",
+    "Dashboard"
+   ],
+   "nota": 88,
+   "publico": "Oficinas mecânicas e auto centers"
+  },
+  {
+   "nome": "Controle de Obras (Orçado x Realizado)",
+   "slug": "p09_obras",
+   "categoria": "Construção",
+   "slogan": "Descubra o estouro de custo e prazo enquanto ainda dá tempo de agir.",
+   "dor": "A obra estoura custo e prazo, e o dono só descobre a margem no fim.",
+   "resumo": "Controle de obra com orçamento por etapa, custos reais, cronograma com Gantt, % físico, projeção do custo final, margem prevista e medições recebidas.",
+   "preco": 87,
+   "promo": 77,
+   "premium": 147,
+   "pasta": "construcao/controle-de-obras",
+   "abas": [
+    "Início",
+    "Config",
+    "Cronograma",
+    "Orçamento",
+    "Custos",
+    "Medições",
+    "Resumo"
+   ],
+   "nota": 87,
+   "publico": "Pequenas construtoras e empreiteiras"
+  },
+  {
+   "nome": "Agenda, Faltas e Retornos para Clínicas",
+   "slug": "p10_clinica",
+   "categoria": "Clínicas",
+   "slogan": "Menos horários vazios. Mais retornos agendados.",
+   "dor": "Pacientes faltam e a agenda fica vazia; retornos não são reagendados e a receita perdida não é medida.",
+   "resumo": "Agenda com status, confirmações pendentes, taxa de falta por profissional e dia da semana, receita perdida, fila de retornos e valores a receber, sem dados clínicos.",
+   "preco": 67,
+   "promo": 57,
+   "premium": 117,
+   "pasta": "clinicas/agenda-retornos",
+   "abas": [
+    "Início",
+    "Config",
+    "Pacientes",
+    "Agenda",
+    "Pendências",
+    "Relatórios"
+   ],
+   "nota": 86,
+   "publico": "Consultórios e clínicas (odonto, fisioterapia, psicologia, estética)"
+  }
+ ],
+ "kits": [
+  {
+   "nome": "Kit Pequeno Empresário",
+   "slug": "kit-pequeno-empresario",
+   "produtos": [
+    "Fluxo de Caixa Inteligente",
+    "Contas a Pagar e Receber com Inadimplência",
+    "DRE e Ponto de Equilíbrio",
+    "Precificador de Produtos e Serviços"
+   ],
+   "soma": 218,
+   "preco": 147,
+   "desc": 33,
+   "historia": "Para o dono que quer sair do achismo: enxergar o caixa, controlar vencimentos, saber o lucro real e precificar certo."
+  },
+  {
+   "nome": "Kit Loja",
+   "slug": "kit-loja",
+   "produtos": [
+    "Estoque Inteligente com Curva ABC",
+    "Precificador de Produtos e Serviços",
+    "Contas a Pagar e Receber com Inadimplência",
+    "Fluxo de Caixa Inteligente"
+   ],
+   "soma": 228,
+   "preco": 157,
+   "desc": 31,
+   "historia": "Para lojas e e-commerce: estoque sem excesso nem falta, preço com margem, vendas a prazo sob controle e caixa previsível."
+  },
+  {
+   "nome": "Kit Restaurante",
+   "slug": "kit-restaurante",
+   "produtos": [
+    "Ficha Técnica e CMV para Restaurantes",
+    "Estoque Inteligente com Curva ABC",
+    "Precificador de Produtos e Serviços",
+    "Fluxo de Caixa Inteligente",
+    "Contas a Pagar e Receber com Inadimplência"
+   ],
+   "soma": 305,
+   "preco": 197,
+   "desc": 35,
+   "historia": "Para bares e restaurantes: custo por prato, CMV real, estoque de insumos, preço de bebidas/porções e caixa."
+  },
+  {
+   "nome": "Kit Oficina",
+   "slug": "kit-oficina",
+   "produtos": [
+    "Ordem de Serviço para Oficinas",
+    "Estoque Inteligente com Curva ABC",
+    "Fluxo de Caixa Inteligente",
+    "Contas a Pagar e Receber com Inadimplência"
+   ],
+   "soma": 248,
+   "preco": 167,
+   "desc": 33,
+   "historia": "Para oficinas: OS com lucro por serviço, controle de peças e do caixa, e cobrança organizada."
+  },
+  {
+   "nome": "Kit Construtora",
+   "slug": "kit-construtora",
+   "produtos": [
+    "Controle de Obras (Orçado x Realizado)",
+    "Contas a Pagar e Receber com Inadimplência",
+    "Fluxo de Caixa Inteligente",
+    "DRE e Ponto de Equilíbrio"
+   ],
+   "soma": 248,
+   "preco": 167,
+   "desc": 33,
+   "historia": "Para pequenas construtoras: margem da obra em tempo real, caixa da empresa, contas e DRE consolidado."
+  },
+  {
+   "nome": "Kit Clínica",
+   "slug": "kit-clinica",
+   "produtos": [
+    "Agenda, Faltas e Retornos para Clínicas",
+    "Fluxo de Caixa Inteligente",
+    "Contas a Pagar e Receber com Inadimplência",
+    "DRE e Ponto de Equilíbrio"
+   ],
+   "soma": 228,
+   "preco": 149,
+   "desc": 35,
+   "historia": "Para clínicas e consultórios: menos faltas, retornos agendados, caixa, recebíveis de convênio e lucro."
+  },
+  {
+   "nome": "Kit Comercial e Serviços",
+   "slug": "kit-comercial-e-servicos",
+   "produtos": [
+    "CRM e Funil de Vendas com Follow-up",
+    "Precificador de Produtos e Serviços",
+    "Contas a Pagar e Receber com Inadimplência",
+    "Fluxo de Caixa Inteligente"
+   ],
+   "soma": 228,
+   "preco": 149,
+   "desc": 35,
+   "historia": "Para quem vende serviços: funil organizado, preço certo para o serviço, cobrança e caixa."
+  },
+  {
+   "nome": "Kit Completo",
+   "slug": "kit-completo",
+   "produtos": [
+    "Fluxo de Caixa Inteligente",
+    "Precificador de Produtos e Serviços",
+    "Estoque Inteligente com Curva ABC",
+    "Contas a Pagar e Receber com Inadimplência",
+    "CRM e Funil de Vendas com Follow-up",
+    "DRE e Ponto de Equilíbrio",
+    "Ficha Técnica e CMV para Restaurantes",
+    "Ordem de Serviço para Oficinas",
+    "Controle de Obras (Orçado x Realizado)",
+    "Agenda, Faltas e Retornos para Clínicas"
+   ],
+   "soma": 660,
+   "preco": 397,
+   "desc": 40,
+   "historia": "As 10 planilhas da primeira leva, para quem quer estruturar a gestão inteira."
+  }
+ ]
+}

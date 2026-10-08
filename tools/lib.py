@@ -49,12 +49,13 @@ ERRORS = ("#REF!", "#VALUE!", "#DIV/0!", "#NAME?", "#N/A", "#NUM!", "#NULL!")
 
 
 class Book:
-    def __init__(self, path, sample=False, cache=None, product="", version="1.0"):
+    def __init__(self, path, sample=False, cache=None, product="", version="1.0", shots=None):
         self.path = path
         self.sample = sample
         self.cache = cache or {}
         self.product = product
         self.version = version
+        self.shots = shots
         self.wb = xlsxwriter.Workbook(path, {"default_date_format": "dd/mm/yyyy"})
         self.wb.set_properties({
             "title": product, "author": "Carvex XLS", "company": "Carvex Technology",
@@ -272,6 +273,11 @@ class Book:
         return ws
 
     def finish(self, first="Início"):
+        if self.shots:       # modo captura: deixa visível só a(s) aba(s) pedida(s)
+            first = self.shots[0]
+            for name, ws in self.sheets.items():
+                if name not in self.shots:
+                    ws.hide()
         # abre sempre na aba Início
         self.sheets[first].activate()
         self.sheets[first].set_first_sheet()
