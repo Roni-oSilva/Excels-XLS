@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carvex XLS — Planilhas empresariais prontas para usar</title>
+<meta name="description" content="10 planilhas Excel empresariais prontas: fluxo de caixa, precificação, estoque, contas a pagar e receber, CRM, DRE, CMV, oficina, obras e clínica. Com tutorial, exemplo preenchido e dashboard. Sem mensalidade.">
+<meta name="theme-color" content="#04170d">
+<meta property="og:title" content="Carvex XLS — Planilhas empresariais prontas para usar">
+<meta property="og:description" content="Baixe, abra e comece em 5 minutos. 10 planilhas com fórmulas, dashboard, tutorial e exemplo preenchido.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#produtos">Ir para os produtos</a>
+
+<!-- ============================ NAV ============================ -->
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#inicio" aria-label="Carvex XLS — início">
+      <img class="brand-mark" src="logo-mark.svg" alt="" width="40" height="32">
+      <span class="brand-word">CARVEX</span><span class="brand-xls">XLS</span>
+    </a>
+    <nav class="nav-links" aria-label="Principal">
+      <a href="#produtos">Planilhas</a>
+      <a href="#dentro">Por dentro</a>
+      <a href="#teste">Teste ao vivo</a>
+      <a href="#kits">Kits</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+    <a class="btn btn-sm btn-glow" href="#produtos">Ver planilhas <span aria-hidden="true">→</span></a>
+  </div>
+</header>
+
+<main>
+<!-- ============================ HERO ============================ -->
+<section class="hero-wrap" id="inicio">
+  <div class="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-ants" aria-hidden="true"></div>
+    <div class="hero-float" aria-hidden="true" id="floaters"></div>
+
+    <div class="hero-copy">
+      <p class="kicker"><span class="cellref">A1</span> Planilhas empresariais prontas</p>
+      <h1>Planilhas que <em>resolvem</em> a dor do seu negócio.</h1>
+      <p class="lead">10 planilhas Excel com fórmulas, dashboard, <strong>tutorial passo a passo</strong> e exemplo preenchido. Baixe, abra e comece em 5 minutos. Sem mensalidade.</p>
+      <div class="hero-cta">
+        <a class="btn btn-white" href="#produtos">Ver as 10 planilhas</a>
+        <a class="btn btn-ghost" href="#teste"><span class="fx-dot">fx</span> Testar ao vivo</a>
+      </div>
+      <ul class="ticks">
+        <li>Sem macros</li><li>Arquivo .xlsx</li><li>Exemplo preenchido</li><li>Pagamento único</li>
+      </ul>
+    </div>
+
+    <div class="hero-visual">
+      <div class="chip chip-a"><i>✓</i> Fórmulas prontas</div>
+      <div class="chip chip-b"><i>▦</i> Dashboard</div>
+      <div class="chip chip-c"><i>?</i> Tutorial</div>
+      <div class="xl" id="xl" aria-label="Demonstração animada de uma planilha">
+        <div class="xl-top">
+          <span class="xl-app">X</span>
+          <span class="xl-title">Fluxo-de-Caixa.xlsx — Excel</span>
+          <span class="xl-dots"><i></i><i></i><i></i></span>
+        </div>
+        <div class="xl-ribbon"><span>Arquivo</span><span class="on">Página Inicial</span><span>Inserir</span><span>Fórmulas</span><span>Dados</span><span>Exibir</span></div>
+        <div class="xl-fbar"><div class="xl-name" id="xlName">D2</div><span class="xl-fx">fx</span><div class="xl-formula"><span id="xlFormula"></span><b class="caret"></b></div></div>
+        <div class="xl-body">
+          <div class="xl-sheet" id="xlSheet"></div>
+          <div class="xl-chart" aria-hidden="true">
+            <div class="xl-chart-title">Saldo por mês</div>
+            <div class="bars" id="xlBars"></div>
+          </div>
+        </div>
+        <div class="xl-tabs"><span>Início</span><span>Lançamentos</span><span class="on">Dashboard</span><span class="plus">+</span></div>
+        <div class="xl-status"><span>Pronto</span><span id="xlStat">Soma: R$ 0</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ MARQUEE ============================ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marquee"></div>
+</div>
+
+<!-- ============================ DORES ============================ -->
+<section class="sec dark" id="dores">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker"><span class="cellref">B2</span> Dor real → solução em planilha</p>
+      <h2>Nenhuma planilha aqui foi inventada. <em>Cada uma nasceu de uma dor.</em></h2>
+      <p class="sub">Pesquisamos o que trava pequenas empresas e transformamos em ferramentas que você abre e usa.</p>
+    </header>
+    <div class="stats">
+      <article class="stat reveal"><b class="count" data-to="9.2" data-dec="1" data-suf=" mi">0</b><p>de CNPJs negativados no Brasil em julho/2026, a maioria micro e pequenas empresas.</p><small>Serasa Experian</small></article>
+      <article class="stat reveal"><b class="count" data-to="84.8" data-dec="1" data-suf="%">0</b><p>dos respondentes de uma pesquisa de 2026 controlam estoque em planilhas Excel ou Google Sheets.</p><small>inFlow, State of Inventory 2026</small></article>
+      <article class="stat reveal"><b class="count" data-to="45" data-suf="%">0</b><p>dos MEIs não separam as contas pessoais das contas da empresa.</p><small>Pesquisa Sebrae (via Sebrae PR)</small></article>
+      <article class="stat reveal"><b class="count" data-to="21.3" data-dec="1" data-suf="%">0</b><p>é o estouro médio de cronograma em obras de construtoras brasileiras (e 6,5% de orçamento).</p><small>Pesquisa UFSM, 100 respostas</small></article>
+    </div>
+    <p class="foot reveal">Fontes e metodologia no repositório (<code>market-research/opportunities.md</code>). Dados de terceiros; use como indicação.</p>
+  </div>
+</section>
+
+<!-- ============================ PRODUTOS ============================ -->
+<section class="sec light" id="produtos">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker"><span class="cellref">C3</span> As 10 planilhas</p>
+      <h2>Escolha a dor que está te custando dinheiro hoje.</h2>
+      <p class="sub">Cada planilha vem com <strong>versão limpa</strong>, <strong>exemplo preenchido</strong>, <strong>tutorial</strong>, <strong>manual</strong> e <strong>guia de 5 minutos</strong>.</p>
+    </header>
+    <div class="filters reveal" id="filters" role="tablist" aria-label="Filtrar por categoria"></div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<!-- ============================ POR DENTRO ============================ -->
+<section class="sec dark" id="dentro">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker"><span class="cellref">D4</span> Por dentro das planilhas</p>
+      <h2>Dashboards que <em>você entende</em> em 10 segundos.</h2>
+      <p class="sub">Capturas reais dos arquivos de exemplo (dados 100% fictícios).</p>
+    </header>
+    <div class="peek reveal">
+      <div class="peek-tabs" id="peekTabs" role="tablist" aria-label="Escolha a planilha"></div>
+      <div class="peek-frame">
+        <div class="peek-bar"><span class="xl-app">X</span><span id="peekTitle">Fluxo-de-Caixa.xlsx</span>
+          <span class="peek-views" role="tablist"><button class="on" data-view="dash">Dashboard</button><button data-view="sheet">Lançamentos</button></span></div>
+        <div class="peek-img"><img id="peekImg" alt="" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TESTE AO VIVO ============================ -->
+<section class="sec green" id="teste">
+  <div class="wrap two">
+    <div class="reveal">
+      <p class="kicker"><span class="cellref">E5</span> Teste ao vivo</p>
+      <h2>Digite nas <span class="y">células amarelas</span>. O resto a planilha faz.</h2>
+      <p class="sub">É assim em todas as planilhas: <span class="y">amarelo</span> você preenche, <span class="g">cinza</span> é cálculo automático. Mude os valores e veja o ponto de equilíbrio (do DRE e Ponto de Equilíbrio) reagir.</p>
+      <ol class="how">
+        <li><b>Baixe</b> e abra a planilha limpa.</li>
+        <li><b>Preencha</b> só as células amarelas.</li>
+        <li><b>Decida</b> pelo dashboard.</li>
+      </ol>
+    </div>
+    <div class="live reveal" id="live">
+      <div class="xl-fbar"><div class="xl-name" id="lvName">B5</div><span class="xl-fx">fx</span><div class="xl-formula"><span id="lvFormula">Clique em uma célula</span></div></div>
+      <table class="lv">
+        <colgroup><col class="c0"><col><col class="c2"></colgroup>
+        <thead><tr><th></th><th>A</th><th>B</th></tr></thead>
+        <tbody>
+          <tr><th>1</th><td class="lbl">Mini DRE do mês</td><td class="lbl r">Valor</td></tr>
+          <tr><th>2</th><td class="lbl">Vendas</td><td class="in" data-c="B2"><input id="inV" inputmode="numeric" value="120.000" aria-label="Vendas"></td></tr>
+          <tr><th>3</th><td class="lbl">Custos variáveis</td><td class="in" data-c="B3"><input id="inC" inputmode="numeric" value="52.000" aria-label="Custos variáveis"></td></tr>
+          <tr><th>4</th><td class="lbl">Despesas fixas</td><td class="in" data-c="B4"><input id="inF" inputmode="numeric" value="41.000" aria-label="Despesas fixas"></td></tr>
+          <tr><th>5</th><td class="lbl">Resultado</td><td class="calc" data-c="B5" id="oR"></td></tr>
+          <tr><th>6</th><td class="lbl">Margem líquida</td><td class="calc" data-c="B6" id="oM"></td></tr>
+          <tr><th>7</th><td class="lbl">Ponto de equilíbrio</td><td class="calc" data-c="B7" id="oP"></td></tr>
+          <tr><th>8</th><td class="lbl">Situação</td><td class="calc" data-c="B8" id="oS"></td></tr>
+        </tbody>
+      </table>
+      <div class="lv-bars" aria-hidden="true"><div><i id="bV"></i><span>Vendas</span></div><div><i id="bP" class="pe"></i><span>Equilíbrio</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ENTREGA ============================ -->
+<section class="sec light" id="entrega">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker"><span class="cellref">F6</span> O que você recebe</p>
+      <h2>Não é só um arquivo. É a <em>experiência completa</em>.</h2>
+    </header>
+    <div class="files">
+      <article class="file reveal"><span class="ico xlsx">XLS</span><h3>Planilha limpa</h3><p>A versão que você usa: fórmulas, listas, validações, dashboard e gráficos prontos.</p></article>
+      <article class="file reveal"><span class="ico xlsx">XLS</span><h3>Exemplo preenchido</h3><p>A mesma planilha com dados fictícios para entender tudo em minutos.</p></article>
+      <article class="file reveal"><span class="ico doc">13</span><h3>Tutorial em 13 passos</h3><p>Para quê, para quem, onde clicar, como ler os resultados, erros comuns e FAQ.</p></article>
+      <article class="file reveal"><span class="ico doc">5′</span><h3>Guia rápido</h3><p>Comece a usar em menos de 5 minutos, com checklist.</p></article>
+      <article class="file reveal"><span class="ico doc">MAN</span><h3>Manual do cliente</h3><p>Configuração, manutenção, backup, privacidade e suporte.</p></article>
+      <article class="file reveal"><span class="ico doc">↻</span><h3>Atualizações 1.x</h3><p>Correções e melhorias da versão enviadas aos compradores.</p></article>
+    </div>
+    <div class="proof reveal">
+      <div><b class="count" data-to="20">0</b><span>planilhas verificadas</span></div>
+      <div><b class="count" data-to="263">0</b><span>conferências numéricas independentes</span></div>
+      <div><b class="count" data-to="0">0</b><span>erros de fórmula</span></div>
+      <div><b>.xlsx</b><span>sem macros, sem instalar nada</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ KITS ============================ -->
+<section class="sec dark" id="kits">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker"><span class="cellref">G7</span> Kits por tipo de negócio</p>
+      <h2>Quem resolve uma dor, descobre outra. <em>Leve o conjunto e economize.</em></h2>
+    </header>
+    <div class="kits" id="kitGrid"></div>
+  </div>
+</section>
+
+<!-- ============================ FAQ ============================ -->
+<section class="sec light" id="faq">
+  <div class="wrap narrow">
+    <header class="sec-head reveal">
+      <p class="kicker"><span class="cellref">H8</span> Dúvidas frequentes</p>
+      <h2>Perguntas antes de comprar</h2>
+    </header>
+    <div class="faq reveal" id="faqList"></div>
+  </div>
+</section>
+
+<!-- ============================ CTA FINAL ============================ -->
+<section class="cta-wrap" id="comprar">
+  <div class="cta">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <h2>Pare de decidir no escuro.</h2>
+    <p>Escolha a planilha da sua maior dor e comece hoje.</p>
+    <div class="hero-cta"><a class="btn btn-white" href="#produtos">Ver as planilhas</a><a class="btn btn-ghost" href="#kits">Ver kits com desconto</a></div>
+    <p class="guar" id="guar"></p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-in">
+    <div>
+      <a class="brand" href="#inicio"><img class="brand-mark" src="logo-mark.svg" alt="" width="40" height="32"><span class="brand-word">CARVEX</span><span class="brand-xls">XLS</span></a>
+      <p class="muted">Planilhas empresariais prontas, explicadas e testadas.</p>
+    </div>
+    <div class="foot-links" id="footLinks"></div>
+    <p class="legal">As planilhas são ferramentas gerenciais e não substituem orientação contábil, jurídica, fiscal ou de saúde. Dados dos exemplos são fictícios. Estatísticas citadas são de terceiros. © <span id="yr"></span> Carvex Technology.</p>
+  </div>
+</footer>
+
+<!-- tabs de planilha (scroll-spy) -->
+<nav class="sheetbar" aria-label="Seções" id="sheetbar">
+  <a href="#inicio" class="on">Início</a><a href="#dores">Dores</a><a href="#produtos">Planilhas</a><a href="#dentro">Por dentro</a><a href="#teste">Teste</a><a href="#entrega">Entrega</a><a href="#kits">Kits</a><a href="#faq">FAQ</a><span class="plus">+</span>
+</nav>
+
+<!-- modal -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+  <div class="modal-card">
+    <button class="x" id="mClose" aria-label="Fechar">×</button>
+    <div class="m-grid">
+      <div class="m-img"><div class="peek-views" id="mViews"><button class="on" data-view="dash">Dashboard</button><button data-view="sheet">Lançamentos</button></div><img id="mImg" alt=""></div>
+      <div class="m-info">
+        <span class="tag" id="mCat"></span>
+        <h3 id="mTitle"></h3>
+        <p class="slogan" id="mSlogan"></p>
+        <p id="mResumo"></p>
+        <h4>Resolve</h4><p id="mDor" class="dor"></p>
+        <h4>O que ela faz</h4><ul id="mList"></ul>
+        <h4>Abas</h4><div class="pills" id="mAbas"></div>
+        <div class="price-box"><div><small id="mFrom"></small><b id="mPrice"></b></div><button class="btn btn-green" id="mBuy">Quero esta planilha</button></div>
+        <p class="tiny" id="mKits"></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<a class="wa" id="wa" href="#" target="_blank" rel="noopener" hidden aria-label="Falar no WhatsApp">💬</a>
+
+<script src="config.js"></script>
+<script src="catalog.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

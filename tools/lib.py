@@ -130,7 +130,7 @@ class Book:
             r, c = xl_cell_to_rowcol(ref)
         else:
             r, c = ref
-        v = self.cache.get((ws.get_name(), r, c), 0)
+        v = self.cache.get((ws.get_name(), r, c), "" if self.cache else 0)   # fórmula que resulta em texto vazio
         if not formula.startswith("="):
             formula = "=" + formula
         ws.write_formula(r, c, formula, fmt, v)

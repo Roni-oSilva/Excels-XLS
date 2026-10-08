@@ -25,7 +25,9 @@ SHOTS = {
 def crop(path):
     im = Image.open(path).convert("RGB")
     bg = Image.new("RGB", im.size, (255, 255, 255))
-    bbox = ImageChops.difference(im, bg).getbbox()
+    # ignora o rodapé de impressão ("Página 1 de 1") que fica na margem inferior da página
+    body = im.crop((0, 0, im.width, im.height - 70))
+    bbox = ImageChops.difference(body, bg.crop((0, 0, body.width, body.height))).getbbox()
     if bbox:
         l, t, r, b = bbox
         im = im.crop((max(0, l - 14), max(0, t - 14), min(im.width, r + 14), min(im.height, b + 14)))

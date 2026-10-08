@@ -19,7 +19,38 @@
     "Dashboard"
    ],
    "nota": 98,
-   "publico": "MEIs e autônomos que querem separar pró-labore e lucro"
+   "publico": "MEIs e autônomos que querem separar pró-labore e lucro",
+   "vantagens": [
+    "Previsto x Realizado: enxerga o futuro, não só o passado.",
+    "Alerta automático de saldo negativo e de meses no vermelho.",
+    "Meses de reserva: o indicador que quase ninguém acompanha.",
+    "Conferência automática de lançamentos (categoria x tipo).",
+    "Dashboard pronto, sem fórmulas para montar."
+   ],
+   "publicos": [
+    "MEIs e autônomos que querem separar pró-labore e lucro",
+    "Lojas, restaurantes, oficinas, clínicas e escritórios pequenos",
+    "Prestadores de serviço com receita irregular",
+    "Qualquer empresa que hoje controla o caixa 'pelo extrato do banco'"
+   ],
+   "cap": "1.000 lançamentos por ano, 40 categorias, 12 contas.",
+   "para_que": [
+    "Registrar todas as entradas e saídas da empresa (já realizadas ou ainda previstas) em um só lugar.",
+    "Mostrar o saldo atual, o saldo projetado até dezembro e em qual mês o caixa pode ficar negativo.",
+    "Dizer para onde o dinheiro está indo (maiores categorias de saída) e quantos meses de despesas você tem de reserva."
+   ],
+   "kits": [
+    "Kit Pequeno Empresário",
+    "Kit Loja",
+    "Kit Restaurante",
+    "Kit Oficina",
+    "Kit Construtora",
+    "Kit Clínica",
+    "Kit Comercial e Serviços",
+    "Kit Completo"
+   ],
+   "forca": "Alta",
+   "id": "fluxo-de-caixa"
   },
   {
    "nome": "Precificador de Produtos e Serviços",
@@ -41,7 +72,35 @@
     "Resumo"
    ],
    "nota": 96,
-   "publico": "Lojas e e-commerce"
+   "publico": "Lojas e e-commerce",
+   "vantagens": [
+    "Produtos e serviços na mesma planilha.",
+    "Simulador de desconto com 'vendas a mais necessárias': o argumento que convence o dono a não dar desconto sem pensar.",
+    "Percentuais por item com padrão automático.",
+    "Semáforo de margem sobre o preço que você pratica hoje.",
+    "Rateio automático da despesa fixa."
+   ],
+   "publicos": [
+    "Lojas e e-commerce",
+    "Prestadores de serviço (instalação, manutenção, consultoria)",
+    "Confeiteiras, artesãos e pequenas indústrias",
+    "MEIs e autônomos que cobram 'no olho'"
+   ],
+   "cap": "300 produtos e 100 serviços.",
+   "para_que": [
+    "Calcular o preço de cada produto e serviço para garantir o lucro que você quer, depois de pagar impostos, comissão, taxa de cartão e as despesas fixas.",
+    "Mostrar quais itens vendidos hoje dão prejuízo ou estão abaixo do ideal.",
+    "Simular descontos: quanto cai o lucro e quanto você precisa vender a mais para compensar."
+   ],
+   "kits": [
+    "Kit Pequeno Empresário",
+    "Kit Loja",
+    "Kit Restaurante",
+    "Kit Comercial e Serviços",
+    "Kit Completo"
+   ],
+   "forca": "Alta",
+   "id": "precificador"
   },
   {
    "nome": "Estoque Inteligente com Curva ABC",
@@ -65,7 +124,34 @@
     "Dashboard"
    ],
    "nota": 95,
-   "publico": "Lojas físicas e e-commerce"
+   "publico": "Lojas físicas e e-commerce",
+   "vantagens": [
+    "Curva ABC automática, sem macros e sem ordenar nada.",
+    "Status e lista de compras prontos para enviar ao fornecedor.",
+    "Itens parados com valor imobilizado em R$.",
+    "Cobertura em dias de cada item.",
+    "Validação de códigos e alertas de lançamento."
+   ],
+   "publicos": [
+    "Lojas físicas e e-commerce",
+    "Papelarias, farmácias, autopeças, mercadinhos",
+    "Distribuidores pequenos",
+    "Qualquer negócio que compra para revender"
+   ],
+   "cap": "300 produtos, 3.000 movimentações, 80 itens na lista de compras.",
+   "para_que": [
+    "Saber o estoque atual de cada item sem contar prateleira.",
+    "Ser avisado do que precisa repor, do que está em excesso e do que está parado há meses.",
+    "Montar a lista de compras e descobrir quais itens (classe A) pagam as contas da empresa."
+   ],
+   "kits": [
+    "Kit Loja",
+    "Kit Restaurante",
+    "Kit Oficina",
+    "Kit Completo"
+   ],
+   "forca": "Alta",
+   "id": "estoque-inteligente"
   },
   {
    "nome": "Contas a Pagar e Receber com Inadimplência",
@@ -86,7 +172,38 @@
     "Painel"
    ],
    "nota": 94,
-   "publico": "Prestadores de serviço com contratos mensais"
+   "publico": "Prestadores de serviço com contratos mensais",
+   "vantagens": [
+    "Mensagem de cobrança pronta.",
+    "Ranking de maiores devedores com telefone.",
+    "Aging com gráfico.",
+    "Previsão de 8 semanas de entradas e saídas.",
+    "Alertas de contas a pagar para evitar multa."
+   ],
+   "publicos": [
+    "Prestadores de serviço com contratos mensais",
+    "Escolas, academias e clínicas com mensalidades",
+    "Distribuidores e lojas que vendem a prazo",
+    "Qualquer empresa que paga fornecedores a prazo"
+   ],
+   "cap": "1.000 contas a receber, 1.000 contas a pagar, 100 clientes, 60 fornecedores.",
+   "para_que": [
+    "Saber o que vence hoje, o que está vencido e quanto cada cliente deve.",
+    "Calcular multa e juros dos atrasados e já ter o texto da cobrança pronto para enviar.",
+    "Prever semana a semana quanto vai entrar e sair para não ser pego de surpresa."
+   ],
+   "kits": [
+    "Kit Pequeno Empresário",
+    "Kit Loja",
+    "Kit Restaurante",
+    "Kit Oficina",
+    "Kit Construtora",
+    "Kit Clínica",
+    "Kit Comercial e Serviços",
+    "Kit Completo"
+   ],
+   "forca": "Alta",
+   "id": "contas-pagar-receber"
   },
   {
    "nome": "CRM e Funil de Vendas com Follow-up",
@@ -109,7 +226,32 @@
     "Dashboard"
    ],
    "nota": 92,
-   "publico": "Equipes comerciais pequenas"
+   "publico": "Equipes comerciais pequenas",
+   "vantagens": [
+    "Agenda automática de follow-up.",
+    "Previsão ponderada de vendas.",
+    "Conversão por origem: mostra onde investir.",
+    "Ranking e metas por vendedor.",
+    "Funciona offline, sem mensalidade."
+   ],
+   "publicos": [
+    "Equipes comerciais pequenas",
+    "Consultores, corretores e prestadores de serviço",
+    "Lojas e agências com vendas consultivas",
+    "Donos que vendem pelo WhatsApp"
+   ],
+   "cap": "1.000 leads, 10 vendedores, 10 origens.",
+   "para_que": [
+    "Cadastrar leads e acompanhá-los por etapa do funil até ganhar ou perder.",
+    "Mostrar todo dia quem precisa de contato (hoje ou atrasado) para não deixar nenhuma venda esfriar.",
+    "Prever vendas (valor ponderado pela probabilidade) e medir conversão por origem e por vendedor."
+   ],
+   "kits": [
+    "Kit Comercial e Serviços",
+    "Kit Completo"
+   ],
+   "forca": "Média",
+   "id": "crm-funil"
   },
   {
    "nome": "DRE e Ponto de Equilíbrio",
@@ -130,7 +272,34 @@
     "Ponto de Equilíbrio"
    ],
    "nota": 91,
-   "publico": "Pequenas e médias empresas que só veem o lucro no balanço do contador"
+   "publico": "Pequenas e médias empresas que só veem o lucro no balanço do contador",
+   "vantagens": [
+    "DRE pronto a partir de lançamentos simples.",
+    "Ponto de equilíbrio mês a mês e para a meta de lucro.",
+    "Análise vertical automática (% da receita).",
+    "Gráficos de lucro e de receita x equilíbrio.",
+    "Estrutura pensada para pequenas empresas."
+   ],
+   "publicos": [
+    "Pequenas e médias empresas que só veem o lucro no balanço do contador",
+    "Sócios e gestores iniciantes em finanças",
+    "Lojas, indústrias leves e prestadores com custos fixos relevantes",
+    "Empresas que querem negociar crédito com números organizados"
+   ],
+   "cap": "1.500 lançamentos por ano.",
+   "para_que": [
+    "Transformar os lançamentos em um DRE (Demonstração do Resultado) mês a mês, sem fórmulas para montar.",
+    "Calcular o ponto de equilíbrio: o faturamento mínimo para não ter prejuízo.",
+    "Mostrar quanto precisa faturar para atingir o lucro mensal que você deseja e se você está acima ou abaixo do equilíbrio."
+   ],
+   "kits": [
+    "Kit Pequeno Empresário",
+    "Kit Construtora",
+    "Kit Clínica",
+    "Kit Completo"
+   ],
+   "forca": "Média",
+   "id": "dre-ponto-equilibrio"
   },
   {
    "nome": "Ficha Técnica e CMV para Restaurantes",
@@ -154,7 +323,32 @@
     "Dashboard"
    ],
    "nota": 90,
-   "publico": "Restaurantes, bares e lanchonetes"
+   "publico": "Restaurantes, bares e lanchonetes",
+   "vantagens": [
+    "Engenharia de cardápio automática.",
+    "CMV real x teórico: mostra perdas que ninguém vê.",
+    "Preço sugerido por meta de CMV.",
+    "Registro de desperdício por motivo.",
+    "Atualiza todas as fichas quando o preço do insumo muda."
+   ],
+   "publicos": [
+    "Restaurantes, bares e lanchonetes",
+    "Pizzarias, hamburguerias e padarias",
+    "Confeitarias e marmitarias",
+    "Dark kitchens e delivery"
+   ],
+   "cap": "300 insumos, 100 pratos, 800 linhas de ficha e 500 registros de desperdício.",
+   "para_que": [
+    "Calcular o custo exato de cada prato (por porção) e o CMV de cada item do cardápio.",
+    "Descobrir quais pratos estão acima da meta, quais são 'estrela' e quais deveriam sair do cardápio.",
+    "Comparar o CMV real do mês (estoque + compras) com o CMV teórico das fichas e registrar o desperdício."
+   ],
+   "kits": [
+    "Kit Restaurante",
+    "Kit Completo"
+   ],
+   "forca": "Alta",
+   "id": "ficha-tecnica-cmv"
   },
   {
    "nome": "Ordem de Serviço para Oficinas",
@@ -180,7 +374,32 @@
     "Dashboard"
    ],
    "nota": 88,
-   "publico": "Oficinas mecânicas e auto centers"
+   "publico": "Oficinas mecânicas e auto centers",
+   "vantagens": [
+    "Lucro por OS: veja quais serviços dão dinheiro.",
+    "Baixa de estoque automática pelas OS.",
+    "Histórico por placa para fidelização.",
+    "Alertas de OS atrasada e cobrança.",
+    "Sem mensalidade."
+   ],
+   "publicos": [
+    "Oficinas mecânicas e auto centers",
+    "Auto elétricas e funilarias",
+    "Retíficas e oficinas de motos",
+    "Qualquer oficina que ainda usa talão e caderno"
+   ],
+   "cap": "1.000 OS, 3.000 itens, 500 peças, 300 clientes/veículos.",
+   "para_que": [
+    "Abrir e acompanhar ordens de serviço com mão de obra, peças e terceiros.",
+    "Dar baixa automática no estoque de peças e avisar o que está em ruptura.",
+    "Mostrar lucro por OS, quanto falta receber, OS atrasadas e o faturamento do mês."
+   ],
+   "kits": [
+    "Kit Oficina",
+    "Kit Completo"
+   ],
+   "forca": "Média",
+   "id": "ordem-de-servico"
   },
   {
    "nome": "Controle de Obras (Orçado x Realizado)",
@@ -203,7 +422,32 @@
     "Resumo"
    ],
    "nota": 87,
-   "publico": "Pequenas construtoras e empreiteiras"
+   "publico": "Pequenas construtoras e empreiteiras",
+   "vantagens": [
+    "Projeção do custo final e da margem durante a obra.",
+    "Gantt automático por formatação condicional.",
+    "Orçado x realizado por etapa e categoria.",
+    "Medições e saldo de caixa da obra.",
+    "Alertas de etapa atrasada e margem abaixo da meta."
+   ],
+   "publicos": [
+    "Pequenas construtoras e empreiteiras",
+    "Engenheiros e arquitetos que gerenciam obra",
+    "Empresas de reforma e manutenção predial",
+    "Quem constrói por administração e precisa prestar contas"
+   ],
+   "cap": "20 etapas, 300 itens de orçamento, 1.500 custos, 60 medições, Gantt de 40 semanas.",
+   "para_que": [
+    "Comparar o orçado com o realizado por etapa e por categoria de custo.",
+    "Projetar o custo final da obra (custo real ÷ % físico) e a margem prevista em relação ao contrato.",
+    "Acompanhar o cronograma em Gantt, as etapas atrasadas e o caixa da obra (recebido x pago)."
+   ],
+   "kits": [
+    "Kit Construtora",
+    "Kit Completo"
+   ],
+   "forca": "Média",
+   "id": "controle-de-obras"
   },
   {
    "nome": "Agenda, Faltas e Retornos para Clínicas",
@@ -225,7 +469,32 @@
     "Relatórios"
    ],
    "nota": 86,
-   "publico": "Consultórios e clínicas (odonto, fisioterapia, psicologia, estética)"
+   "publico": "Consultórios e clínicas (odonto, fisioterapia, psicologia, estética)",
+   "vantagens": [
+    "Mede o custo das faltas em R$.",
+    "Fila de retornos com telefone.",
+    "Taxa de falta por profissional e dia da semana.",
+    "Sem dados clínicos: mais simples e seguro.",
+    "Sem mensalidade."
+   ],
+   "publicos": [
+    "Consultórios e clínicas (odonto, fisioterapia, psicologia, estética)",
+    "Clínicas de nutrição e pilates",
+    "Espaços com agenda por profissional",
+    "Qualquer serviço com hora marcada"
+   ],
+   "cap": "3.000 agendamentos, 1.000 pacientes, 30 procedimentos, 10 profissionais.",
+   "para_que": [
+    "Organizar a agenda com status (agendado, confirmado, compareceu, faltou, cancelado, remarcado).",
+    "Mostrar quem precisa ser confirmado e quais pacientes precisam de retorno agendado.",
+    "Medir a taxa de faltas e a receita perdida por profissional e por dia da semana."
+   ],
+   "kits": [
+    "Kit Clínica",
+    "Kit Completo"
+   ],
+   "forca": "Média",
+   "id": "agenda-retornos"
   }
  ],
  "kits": [

@@ -468,7 +468,8 @@ def main():
         w(os.path.join(dest, "GUIA-RAPIDO.md"), guia(s))
         sales(s, dest)
         catalog.append(dict(mod=s["mod"], nome=s["comercial"], categoria=s["categoria"], pasta=mod.PASTA, publico=s["publico"][0], dor=s["dor"],
-                            preco=s["preco"], op=OPBY[s["op"]]["nota"], slogan=s["slogan"], resumo=s["resumo"], abas=[a for a, _ in s["abas"]]))
+                            preco=s["preco"], op=OPBY[s["op"]]["nota"], slogan=s["slogan"], resumo=s["resumo"], abas=[a for a, _ in s["abas"]],
+                            vantagens=s["vantagens"], publicos=s["publico"], cap=s["cap"], para_que=s["para_que"], kits=s["kits"], forca=OPBY[s["op"]]["forca"]))
         print("docs:", mod.PASTA)
     by = {c["mod"]: c for c in catalog}
     # ---------------- kits
@@ -530,7 +531,8 @@ Pesquisa completa em [`market-research/opportunities.md`](market-research/opport
 """)
     # catálogo JSON para a página de vendas
     out = dict(produtos=[dict(nome=c["nome"], slug=c["mod"], categoria=c["categoria"], slogan=c["slogan"], dor=c["dor"], resumo=c["resumo"], preco=c["preco"][0], promo=c["preco"][1], premium=c["preco"][2],
-                              pasta=c["pasta"], abas=c["abas"], nota=c["op"], publico=c["publico"]) for c in catalog], kits=kit_json)
+                              pasta=c["pasta"], abas=c["abas"], nota=c["op"], publico=c["publico"], vantagens=c["vantagens"], publicos=c["publicos"], cap=c["cap"],
+                              para_que=c["para_que"], kits=c["kits"], forca=c["forca"], id=c["pasta"].split("/")[-1]) for c in catalog], kits=kit_json)
     os.makedirs(os.path.join(ROOT, "site"), exist_ok=True)
     with open(os.path.join(ROOT, "site", "catalog.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
