@@ -6,7 +6,7 @@ window.CARVEX_CONFIG = {
   brand: "Carvex XLS",
 
   // Contato (opcional). WhatsApp: só números com DDI + DDD, ex.: "5511999999999"
-  whatsapp: "",
+  whatsapp: "5591981902529",
   email: "",
   instagram: "",
 
