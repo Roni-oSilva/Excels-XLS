@@ -6,6 +6,5 @@ dist/
 .build/
 
 # vídeo promocional: o MP4 vai para o Git (pasta media/), mas fora do site/; arquivos temporários não
-media/frames/
-media/promo.html
-media/render.js
+media/
+tools/video/
