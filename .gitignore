@@ -3,9 +3,9 @@ __pycache__/
 .build/
 dist/
 
-# vídeos e frames (não subir para o GitHub)
-*.mp4
-*.mov
-*.webm
-media/
 .build/
+
+# vídeo promocional: o MP4 vai para o Git (pasta media/), mas fora do site/; arquivos temporários não
+media/frames/
+media/promo.html
+media/render.js
