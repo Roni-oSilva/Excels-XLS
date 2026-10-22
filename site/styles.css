@@ -323,3 +323,8 @@ code{font-family:var(--mono);font-size:.85em;background:rgba(255,255,255,.08);pa
   *,*::before,*::after{animation:none!important;transition:none!important}
   html{scroll-behavior:auto}.reveal{opacity:1;transform:none}.marquee-track{animation:none}
 }
+
+/* desempenho: animacoes que repintam a tela toda ficam desligadas */
+.hero-grid{animation:none!important}
+@media (hover:none),(pointer:coarse){.btn-glow,.hero-ants,.hero-float span{animation:none!important}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
